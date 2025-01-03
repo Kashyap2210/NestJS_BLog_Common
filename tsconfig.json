@@ -1,11 +1,16 @@
 {
   "compilerOptions": {
-    "target": "ES6",
-    "module": "CommonJS",
-    "declaration": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "strict": true
+    "target": "ES6",                   // Use ES6 for better compatibility
+    "module": "CommonJS",               // CommonJS module system (used by Node.js)
+    "declaration": true,                // Generate declaration files (.d.ts)
+    "declarationDir": "./dist",         // Output declaration files to the dist folder
+    "outDir": "./dist",                 // Output compiled JavaScript files to the dist folder
+    "rootDir": "./src",                 // Root source directory
+    "strict": true,                     // Enable strict type-checking options
+    "skipLibCheck": true,               // Skip type checking of declaration files (improves build time)
+    "esModuleInterop": true,            // Allows default import from modules with no default export
+    "resolveJsonModule": true           // Allow importing JSON files
   },
-  "include": ["src/**/*"]
+  "include": ["src/**/*"],              // Include all files inside the src folder
+  "exclude": ["node_modules", "dist"]   // Exclude node_modules and dist folder from being included
 }
