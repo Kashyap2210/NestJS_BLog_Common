@@ -1,0 +1,17 @@
+{
+  "name": "blog-common-1.0",
+  "version": "1.1.0",
+  "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+
+   "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Kashyap Solanki",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
