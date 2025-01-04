@@ -1,4 +1,5 @@
-import { UserGender } from '../enums/user.gender.enum';
+
+import { UserGender } from '../../enums/user.gender.enum';
 import { IAuditColumnEntity } from './audit.column.entity.interface';
 
 export interface IUserEntity extends IAuditColumnEntity {
