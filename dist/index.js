@@ -17,6 +17,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./interfaces/dtos/blog.create.dto.interface"), exports);
 __exportStar(require("./interfaces/dtos/blog.update.entity.interface"), exports);
 __exportStar(require("./interfaces/dtos/user.signin.dto.interface"), exports);
+__exportStar(require("./interfaces/dtos/comment.create.dto.interface"), exports);
 __exportStar(require("./enums/user.gender.enum"), exports);
 __exportStar(require("./interfaces/response/user.login.response.interface"), exports);
 __exportStar(require("./interfaces/response/blog.response.interface"), exports);

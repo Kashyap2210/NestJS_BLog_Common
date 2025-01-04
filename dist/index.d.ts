@@ -1,6 +1,7 @@
 export * from './interfaces/dtos/blog.create.dto.interface';
 export * from './interfaces/dtos/blog.update.entity.interface';
 export * from './interfaces/dtos/user.signin.dto.interface';
+export * from "./interfaces/dtos/comment.create.dto.interface";
 export * from './enums/user.gender.enum';
 export * from './interfaces/response/user.login.response.interface';
 export * from './interfaces/response/blog.response.interface';
