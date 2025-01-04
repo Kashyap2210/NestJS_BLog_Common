@@ -1,3 +1,3 @@
 import { IUserCreateDto } from '../entities/user.entity.interface';
-export interface IUserUpdateDto extends Partial<IUserCreateDto> {
+export interface IUserUpdateDto extends IUserCreateDto {
 }
