@@ -4,6 +4,7 @@ export * from './interfaces/dtos/user.signin.dto.interface';
 export * from "./interfaces/dtos/comment.create.dto.interface"
 export * from './interfaces/dtos/likes.counter.create.dto.interface';
 export * from './interfaces/dtos/comment.update.dto.interface';
+export * from './interfaces/dtos/user.update.dto.interface';
 
 export * from './enums/user.gender.enum';
 export * from './enums/like.status.enum';
