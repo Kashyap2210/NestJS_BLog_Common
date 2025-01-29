@@ -1,4 +1,5 @@
 export declare enum LikeStatus {
     LIKED = "liked",
-    DISLIKED = "disliked"
+    DISLIKED = "disliked",
+    NEUTRAL = "neutral"
 }

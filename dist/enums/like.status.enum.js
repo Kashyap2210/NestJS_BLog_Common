@@ -5,4 +5,5 @@ var LikeStatus;
 (function (LikeStatus) {
     LikeStatus["LIKED"] = "liked";
     LikeStatus["DISLIKED"] = "disliked";
+    LikeStatus["NEUTRAL"] = "neutral";
 })(LikeStatus || (exports.LikeStatus = LikeStatus = {}));
