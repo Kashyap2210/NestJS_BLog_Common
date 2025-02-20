@@ -1,4 +1,5 @@
-import { IAuditColumnEntity } from './audit.column.entity.interface';
+import { IEntityFilterData } from "../../generi.types";
+import { IAuditColumnEntity } from "./audit.column.entity.interface";
 
 export interface IBlogEntity extends IAuditColumnEntity {
   id: number;
@@ -9,3 +10,5 @@ export interface IBlogEntity extends IAuditColumnEntity {
 }
 
 export type IBlogEntityArray = IBlogEntity[];
+
+export type IBlogEntitySearchDto = IEntityFilterData<IBlogEntity>;
