@@ -22,6 +22,7 @@ __exportStar(require("./interfaces/dtos/likes.counter.create.dto.interface"), ex
 __exportStar(require("./interfaces/dtos/comment.update.dto.interface"), exports);
 __exportStar(require("./interfaces/dtos/user.update.dto.interface"), exports);
 __exportStar(require("./interfaces/dtos/comment-search.dto.interface"), exports);
+__exportStar(require("./interfaces/dtos/blog-search.dto.interface"), exports);
 __exportStar(require("./enums/user.gender.enum"), exports);
 __exportStar(require("./enums/like.status.enum"), exports);
 __exportStar(require("./interfaces/response/user.login.response.interface"), exports);
