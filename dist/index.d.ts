@@ -11,6 +11,7 @@ export * from "./enums/user.gender.enum";
 export * from "./enums/like.status.enum";
 export * from "./interfaces/response/user.login.response.interface";
 export * from "./interfaces/response/blog.response.interface";
+export * from "./interfaces/response/user.profile.response.interface";
 export * from "./interfaces/entities/audit.column.entity.interface";
 export * from "./interfaces/entities/user.entity.interface";
 export * from "./interfaces/entities/blog.entity.interface";
