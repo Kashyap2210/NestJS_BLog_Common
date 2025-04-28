@@ -1,5 +1,12 @@
+import { UserFolloweeStatusEnum } from "../../enums/follower.status.enum";
 import { IEntityCreateDto } from "../../generi.types";
 import { IUserFolloweeEntity } from "../entities/followers.entity.interface";
 
-export interface IUserFollowerCreateDto
-  extends IEntityCreateDto<IUserFolloweeEntity> {}
+export type IUserFollowerCreateDtoExclude = "status";
+
+export type IUserFollowerCreateDto = Omit<
+  IEntityCreateDto<IUserFolloweeEntity>,
+  "status"
+> & {
+  status?: UserFolloweeStatusEnum;
+};
