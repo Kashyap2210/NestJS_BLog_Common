@@ -23,8 +23,12 @@ __exportStar(require("./interfaces/dtos/comment.update.dto.interface"), exports)
 __exportStar(require("./interfaces/dtos/user.update.dto.interface"), exports);
 __exportStar(require("./interfaces/dtos/comment-search.dto.interface"), exports);
 __exportStar(require("./interfaces/dtos/blog-search.dto.interface"), exports);
+__exportStar(require("./interfaces/dtos/follower.create.dto.interface"), exports);
+__exportStar(require("./interfaces/dtos/follower.update.dto.interface"), exports);
+__exportStar(require("./interfaces/dtos/follower.search.dto.interface"), exports);
 __exportStar(require("./enums/user.gender.enum"), exports);
 __exportStar(require("./enums/like.status.enum"), exports);
+__exportStar(require("./enums/follower.status.enum"), exports);
 __exportStar(require("./interfaces/response/user.login.response.interface"), exports);
 __exportStar(require("./interfaces/response/blog.response.interface"), exports);
 __exportStar(require("./interfaces/response/user.profile.response.interface"), exports);
@@ -33,3 +37,4 @@ __exportStar(require("./interfaces/entities/user.entity.interface"), exports);
 __exportStar(require("./interfaces/entities/blog.entity.interface"), exports);
 __exportStar(require("./interfaces/entities/comment.entity.interface"), exports);
 __exportStar(require("./interfaces/entities/blog.likes.counter.entity.interface"), exports);
+__exportStar(require("./interfaces/entities/followers.entity.interface"), exports);
