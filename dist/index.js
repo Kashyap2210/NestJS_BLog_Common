@@ -32,6 +32,7 @@ __exportStar(require("./enums/follower.status.enum"), exports);
 __exportStar(require("./interfaces/response/user.login.response.interface"), exports);
 __exportStar(require("./interfaces/response/blog.response.interface"), exports);
 __exportStar(require("./interfaces/response/user.profile.response.interface"), exports);
+__exportStar(require("./interfaces/response/user.followee.response.interface"), exports);
 __exportStar(require("./interfaces/entities/audit.column.entity.interface"), exports);
 __exportStar(require("./interfaces/entities/user.entity.interface"), exports);
 __exportStar(require("./interfaces/entities/blog.entity.interface"), exports);
