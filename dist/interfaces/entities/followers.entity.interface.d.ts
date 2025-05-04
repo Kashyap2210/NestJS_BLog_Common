@@ -12,3 +12,7 @@ export type IFollowersStatusFlowConfig = {
         next: () => UserFolloweeStatusEnum | null;
     };
 };
+export interface IUserProfileFollowersFollowingCount {
+    followersOfCurrentUser: number;
+    usersFollowingTheCurrentUser: number;
+}
