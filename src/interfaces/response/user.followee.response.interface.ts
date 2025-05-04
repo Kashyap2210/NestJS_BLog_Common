@@ -5,4 +5,8 @@ export interface IUserFolloweeResponseInclude {
   isFollowing: boolean;
 }
 
-export interface IUserFolloweeResponse extends IUserEntity {}
+export interface IRelationId {
+  relationId: number;
+}
+
+export interface IUserFolloweeResponse extends IUserEntity, IRelationId {}
