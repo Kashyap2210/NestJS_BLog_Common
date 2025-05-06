@@ -10,6 +10,7 @@ export * from "./interfaces/dtos/blog-search.dto.interface";
 export * from "./interfaces/dtos/follower.create.dto.interface";
 export * from "./interfaces/dtos/follower.update.dto.interface";
 export * from "./interfaces/dtos/follower.search.dto.interface";
+export * from "./interfaces/dtos/user.search.dto.interface";
 export * from "./enums/user.gender.enum";
 export * from "./enums/like.status.enum";
 export * from "./enums/follower.status.enum";

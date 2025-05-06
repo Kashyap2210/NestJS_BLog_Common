@@ -26,6 +26,7 @@ __exportStar(require("./interfaces/dtos/blog-search.dto.interface"), exports);
 __exportStar(require("./interfaces/dtos/follower.create.dto.interface"), exports);
 __exportStar(require("./interfaces/dtos/follower.update.dto.interface"), exports);
 __exportStar(require("./interfaces/dtos/follower.search.dto.interface"), exports);
+__exportStar(require("./interfaces/dtos/user.search.dto.interface"), exports);
 __exportStar(require("./enums/user.gender.enum"), exports);
 __exportStar(require("./enums/like.status.enum"), exports);
 __exportStar(require("./enums/follower.status.enum"), exports);
